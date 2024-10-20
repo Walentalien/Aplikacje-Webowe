@@ -1,0 +1,32 @@
+/* Styl dla wszystkich zadań */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styl dla kwadratów (Ćwiczenie 3) */
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Umożliwia zawijanie kwadratów na nowy wiersz */
+    gap: 600px; /* Odstępy między kwadratami */
+    justify-content: center; /* Centrowanie kwadratów w kontenerze */
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: gray; /* Domyślny kolor, nadpisany w HTML inline */
+}
+
+.image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Dopasowanie obrazka do kwadratu */
+    display: block;
+}
